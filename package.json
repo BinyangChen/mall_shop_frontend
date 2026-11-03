@@ -1,0 +1,33 @@
+{
+  "name": "mall-shop-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode customer",
+    "dev:admin": "vite --mode admin",
+    "build": "vue-tsc -b && vite build --mode customer",
+    "build:admin": "vue-tsc -b && vite build --mode admin",
+    "preview": "vite preview --mode customer",
+    "preview:admin": "vite preview --mode admin",
+    "test:unit": "vitest run"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.9",
+    "element-plus": "^2.9.1",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^25.0.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^3.2.7",
+    "vue-tsc": "^2.2.0"
+  }
+}

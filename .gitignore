@@ -1,0 +1,10 @@
+# Node / Vite
+node_modules/
+dist/
+dist-admin/
+*.log
+# Env & IDE
+.env.local
+.idea/
+.vscode/
+.DS_Store
